@@ -1,0 +1,27 @@
+[apps]
+fe = "https://fe-study.ykanekoo.workers.dev"
+ap = "https://ap-study.ykanekoo.workers.dev"
+jstqb = "https://jstqb-study.ykanekoo.workers.dev"
+
+[utm]
+source = "x"
+medium = "social"
+campaign = "daily_question"
+
+[display]
+hashtags = { fe = ["#基本情報技術者試験", "#1日1問"], ap = ["#応用情報技術者試験", "#1日1問"], jstqb = ["#JSTQB", "#1日1問"] }
+app_label = "自作の学習アプリ"
+ai_label = "※問題はAIの支援で作成し、人手で検証しています"
+original_label = "IPA/JSTQBの公式問題ではなくオリジナル問題です"
+answer_hint = "答えはリプ欄/明日"
+sponsored = false
+
+[qa]
+rss_url = "https://y-kanekoo.github.io/qa-radar/feed.xml"
+
+[metrics]
+b_app_uu = 200
+b_avg_impressions = 300
+a_followers = 150
+a_avg_impressions = 300
+bookmark_rate_reference = 0.01

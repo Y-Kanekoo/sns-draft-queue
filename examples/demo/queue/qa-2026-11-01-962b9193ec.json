@@ -1,0 +1,29 @@
+{
+  "id": "qa-2026-11-01-962b9193ec",
+  "kind": "qa",
+  "date": "2026-11-01",
+  "status": "pending",
+  "posts": [
+    "【QA週刊ダイジェスト】2026-11-01までの7日間。注目記事3件。主な話題: testing・tooling。",
+    "テスト設計の見直し\n出所: QA Japan\nhttps://example.org/1\nひとこと:（ここに自分の見解を書く）",
+    "Playwright release\n出所: Tool News\nhttps://example.org/2\nひとこと:（ここに自分の見解を書く）",
+    "品質保証の実践\n出所: QA Japan\nhttps://example.org/3\nひとこと:（ここに自分の見解を書く）",
+    "qa-radar の RSS: https://y-kanekoo.github.io/qa-radar/feed.xml"
+  ],
+  "meta": {
+    "article_guids": [
+      "a1",
+      "a2",
+      "a3"
+    ],
+    "note_markdown": "# QA週刊ダイジェスト\n\n## テスト設計の見直し\n\n出所: QA Japan\n\nhttps://example.org/1\n\nひとこと:（ここに自分の見解を書く）\n\n## Playwright release\n\n出所: Tool News\n\nhttps://example.org/2\n\nひとこと:（ここに自分の見解を書く）\n\n## 品質保証の実践\n\n出所: QA Japan\n\nhttps://example.org/3\n\nひとこと:（ここに自分の見解を書く）\n\nRSS: https://y-kanekoo.github.io/qa-radar/feed.xml\n"
+  },
+  "created_at": "2026-11-01T01:03:59+09:00",
+  "history": [
+    {
+      "at": "2026-11-01T01:03:59+09:00",
+      "action": "created",
+      "note": ""
+    }
+  ]
+}

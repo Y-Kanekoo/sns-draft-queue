@@ -1,0 +1,35 @@
+{
+  "id": "cert-2026-11-01-59bd02e7cf",
+  "kind": "cert",
+  "date": "2026-11-01",
+  "status": "approved",
+  "posts": [
+    "【FE 1日1問】\nA=1、B=0、C=1のとき、(A AND NOT B)の値と、続けてCとのXORを取った値の組合せはどれか。\nA. (0, 1)\nB. (0, 0)\nC. (1, 1)\nD. (1, 0)\n答えはリプ欄/明日\nIPA/JSTQBの公式問題ではなくオリジナル問題です\n自作の学習アプリ: https://fe-study.ykanekoo.workers.dev?utm_source=x&utm_medium=social&utm_campaign=daily_question&utm_content=fe-a-0003\n#基本情報技術者試験 #1日1問"
+  ],
+  "meta": {
+    "question_id": "fe-a-0003",
+    "exam": "fe",
+    "topic": "fe-M01-01",
+    "source": "cert-study オリジナル問題",
+    "generated_at": "2026-11-01T01:03:59+09:00",
+    "diagram_text": "┌ FE 1日1問 ┐\n│ A=1、B=0、C=1のとき、(A AND NOT B)の値と、続けてCとのXORを取った値の組合せはどれか。\n│ A. (0, 1)\n│ B. (0, 0)\n│ C. (1, 1)\n│ D. (1, 0)\n└ 正解は伏せる ┘",
+    "diagram_memo": "画像カードでは正解を載せず、文字の可読性と余白を確認する。※問題はAIの支援で作成し、人手で検証しています"
+  },
+  "created_at": "2026-11-01T01:03:59+09:00",
+  "history": [
+    {
+      "at": "2026-11-01T01:03:59+09:00",
+      "action": "created",
+      "note": ""
+    },
+    {
+      "at": "2026-11-01T01:03:59+09:00",
+      "action": "approved",
+      "note": ""
+    }
+  ],
+  "answer_posts": [
+    "【解答】D\nNOT B=1なのでA AND NOT B=1である。続いて1 XOR C=1 XOR 1=0となり、組は(1, 0)である。\nA: 前半は1であり、後半も1 XOR 1で0になる。\nB: NOT Bは1なので、前半は0ではない。\nC: 前半は1だが、同じ1同士のXORは0である。",
+    "D: 前半は1、後半は1 XOR 1=0である。\n※問題はAIの支援で作成し、人手で検証しています"
+  ]
+}

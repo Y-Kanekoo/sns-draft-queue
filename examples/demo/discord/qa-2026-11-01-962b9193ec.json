@@ -1,0 +1,8 @@
+[
+  {
+    "content": "下書き qa-2026-11-01-962b9193ec の承認をお願いします。\nCLI: sns-queue queue approve qa-2026-11-01-962b9193ec\nGitHub Actions: artifact をダウンロードし、queue import で取り込んでから確認してください。\n\n投稿 1: 【QA週刊ダイジェスト】2026-11-01までの7日間。注目記事3件。主な話題: testing・tooling。\n\n投稿 2: テスト設計の見直し\n出所: QA Japan\nhttps://example.org/1\nひとこと:（ここに自分の見解を書く）\n\n投稿 3: Playwright release\n出所: Tool News\nhttps://example.org/2\nひとこと:（ここに自分の見解を書く）\n\n投稿 4: 品質保証の実践\n出所: QA Japan\nhttps://example.org/3\nひとこと:（ここに自分の見解を書く）\n\n投稿 5: qa-radar の RSS: https://y-kanekoo.github.io/qa-radar/feed.xml",
+    "allowed_mentions": {
+      "parse": []
+    }
+  }
+]

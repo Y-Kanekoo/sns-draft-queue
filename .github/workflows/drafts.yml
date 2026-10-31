@@ -1,0 +1,34 @@
+name: drafts
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '0 0 * * *'  # 有効化はユーザー判断
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    env:
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Y-Kanekoo/cert-study
+          path: cert-study
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.11"
+      - run: uv run sns-queue cert daily --source cert-study --exam all --date "$(TZ=Asia/Tokyo date +%F)"
+      - name: QA 週刊下書き
+        continue-on-error: true # 対象週に記事がない場合も cert の下書きを残す
+        run: uv run sns-queue qa weekly --feed https://y-kanekoo.github.io/qa-radar/feed.xml
+      - name: Discord に通知
+        if: ${{ env.DISCORD_WEBHOOK_URL != '' }}
+        run: uv run sns-queue notify --pending
+      - name: 下書き artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sns-drafts
+          path: |
+            queue/
+            outbox/

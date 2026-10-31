@@ -1,0 +1,33 @@
+{
+  "id": "qa-2026-11-01-533f8166a2",
+  "kind": "qa",
+  "date": "2026-11-01",
+  "status": "pending",
+  "posts": [
+    "【QA週刊ダイジェスト】2026-11-01までの7日間。注目記事5件。主な話題: e2e・tooling。",
+    "高いGPUを回す前に、安いCPUランタイムで「1タスクだけ」スモークテストしよう\n出所: Zenn トピック「testing」\nhttps://zenn.dev/koheip/articles/cheap-runtime-smoke-test\nひとこと:（ここに自分の見解を書く）",
+    "Make Playwright Email Tests Explain Their Waits\n出所: DEV.to /tag/qa\nhttps://dev.to/silviutech/make-playwright-email-tests-explain-their-waits-3cp5\nひとこと:（ここに自分の見解を書く）",
+    "「ここは変えないで」をビルドで確かめる：AI改修に入れた小さなファイル固定チェック\n出所: Qiita タグ「テスト自動化」\nhttps://qiita.com/after6labo/items/ff02ff189a75938eb580\nひとこと:（ここに自分の見解を書く）",
+    "Fuzzing+差分テストによるKVS検証 - 単体テストで見逃した非互換をあぶりだす\n出所: Cybozu Inside Out\nhttps://blog.cybozu.io/entry/2026/10/30/113000\nひとこと:（ここに自分の見解を書く）",
+    "Contract Oneの全文検索を評価する基盤を作成した（インターン成果報告）\n出所: Sansan Builders Box\nhttps://buildersbox.corp-sansan.com/entry/2026/10/30/110000\nひとこと:（ここに自分の見解を書く）",
+    "qa-radar の RSS: https://y-kanekoo.github.io/qa-radar/feed.xml"
+  ],
+  "meta": {
+    "article_guids": [
+      "https://zenn.dev/koheip/articles/cheap-runtime-smoke-test",
+      "https://dev.to/silviutech/make-playwright-email-tests-explain-their-waits-3cp5",
+      "https://qiita.com/after6labo/items/ff02ff189a75938eb580",
+      "https://blog.cybozu.io/entry/2026/10/30/113000",
+      "https://buildersbox.corp-sansan.com/entry/2026/10/30/110000"
+    ],
+    "note_markdown": "# QA週刊ダイジェスト\n\n## 高いGPUを回す前に、安いCPUランタイムで「1タスクだけ」スモークテストしよう\n\n出所: Zenn トピック「testing」\n\nhttps://zenn.dev/koheip/articles/cheap-runtime-smoke-test\n\nひとこと:（ここに自分の見解を書く）\n\n## Make Playwright Email Tests Explain Their Waits\n\n出所: DEV.to /tag/qa\n\nhttps://dev.to/silviutech/make-playwright-email-tests-explain-their-waits-3cp5\n\nひとこと:（ここに自分の見解を書く）\n\n## 「ここは変えないで」をビルドで確かめる：AI改修に入れた小さなファイル固定チェック\n\n出所: Qiita タグ「テスト自動化」\n\nhttps://qiita.com/after6labo/items/ff02ff189a75938eb580\n\nひとこと:（ここに自分の見解を書く）\n\n## Fuzzing+差分テストによるKVS検証 - 単体テストで見逃した非互換をあぶりだす\n\n出所: Cybozu Inside Out\n\nhttps://blog.cybozu.io/entry/2026/10/30/113000\n\nひとこと:（ここに自分の見解を書く）\n\n## Contract Oneの全文検索を評価する基盤を作成した（インターン成果報告）\n\n出所: Sansan Builders Box\n\nhttps://buildersbox.corp-sansan.com/entry/2026/10/30/110000\n\nひとこと:（ここに自分の見解を書く）\n\nRSS: https://y-kanekoo.github.io/qa-radar/feed.xml\n"
+  },
+  "created_at": "2026-11-01T01:03:59+09:00",
+  "history": [
+    {
+      "at": "2026-11-01T01:03:59+09:00",
+      "action": "created",
+      "note": ""
+    }
+  ]
+}

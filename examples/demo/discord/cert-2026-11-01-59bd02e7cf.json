@@ -1,0 +1,8 @@
+[
+  {
+    "content": "下書き cert-2026-11-01-59bd02e7cf の承認をお願いします。\nCLI: sns-queue queue approve cert-2026-11-01-59bd02e7cf\nGitHub Actions: artifact をダウンロードし、queue import で取り込んでから確認してください。\n\n問題 1: 【FE 1日1問】\nA=1、B=0、C=1のとき、(A AND NOT B)の値と、続けてCとのXORを取った値の組合せはどれか。\nA. (0, 1)\nB. (0, 0)\nC. (1, 1)\nD. (1, 0)\n答えはリプ欄/明日\nIPA/JSTQBの公式問題ではなくオリジナル問題です\n自作の学習アプリ: https://fe-study.ykanekoo.workers.dev?utm_source=x&utm_medium=social&utm_campaign=daily_question&utm_content=fe-a-0003\n#基本情報技術者試験 #1日1問\n\n解答 1（リプ欄/翌日用）: 【解答】D\nNOT B=1なのでA AND NOT B=1である。続いて1 XOR C=1 XOR 1=0となり、組は(1, 0)である。\nA: 前半は1であり、後半も1 XOR 1で0になる。\nB: NOT Bは1なので、前半は0ではない。\nC: 前半は1だが、同じ1同士のXORは0である。\n\n解答 2（リプ欄/翌日用）: D: 前半は1、後半は1 XOR 1=0である。\n※問題はAIの支援で作成し、人手で検証しています",
+    "allowed_mentions": {
+      "parse": []
+    }
+  }
+]

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>QA Radar</title>
+<item><title>テスト設計の見直し</title><link>https://example.org/1</link><guid>a1</guid><pubDate>Sat, 31 Oct 2026 10:00:00 +0900</pubDate><description>要約&#10;出所: QA Japan</description><category>testing</category></item>
+<item><title>Playwright release</title><link>https://example.org/2</link><guid>a2</guid><pubDate>Fri, 30 Oct 2026 10:00:00 +0900</pubDate><description>Summary&#10;出所: Tool News</description><category>tooling</category></item>
+<item><title>品質保証の実践</title><link>https://example.org/3</link><guid>a3</guid><pubDate>Thu, 29 Oct 2026 10:00:00 +0900</pubDate><description>要約&#10;出所: QA Japan</description><category>testing</category></item>
+<item><title>古い記事</title><link>https://example.org/4</link><guid>a4</guid><pubDate>Tue, 20 Oct 2026 10:00:00 +0900</pubDate><description>要約&#10;出所: Old News</description></item>
+</channel></rss>
